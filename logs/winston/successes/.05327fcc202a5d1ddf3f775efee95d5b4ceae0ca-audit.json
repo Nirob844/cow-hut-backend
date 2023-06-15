@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\successes\\.05327fcc202a5d1ddf3f775efee95d5b4ceae0ca-audit.json",
+    "files": [
+        {
+            "date": 1686850521347,
+            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\successes\\UMS-2023-15-06-23-success.log",
+            "hash": "5a24a2a5f29748ca3cea75e7c52bab99a903fc5095949dc25b24b5ce77b9d256"
+        }
+    ],
+    "hashType": "sha256"
+}

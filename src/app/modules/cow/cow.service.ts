@@ -55,6 +55,7 @@ const getAllCows = async (
     andConditions.length > 0 ? { $and: andConditions } : {};
 
   const result = await Cow.find(whereConditions)
+    .populate('seller')
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);

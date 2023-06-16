@@ -36,6 +36,7 @@ const userSchema = new Schema<IUser, UserModel>(
     income: {
       type: Number,
       required: true,
+      default: 0, // Default value for income field
     },
   },
   {

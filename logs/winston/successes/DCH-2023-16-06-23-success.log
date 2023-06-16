@@ -1,0 +1,42 @@
+{
+  message: 'database connect successful',
+  level: 'info',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T17:05:11.872Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T17:05:11.882Z'
+}
+{
+  message: 'database connect successful',
+  level: 'info',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T17:13:56.666Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T17:13:56.675Z'
+}
+{
+  message: 'database connect successful',
+  level: 'info',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T17:17:14.286Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T17:17:14.296Z'
+}

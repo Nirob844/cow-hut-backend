@@ -1,8 +1,8 @@
 export const cowSearchableFields = [
   'name',
-  ' location',
-  ' price?',
-  'breadt',
+  'location',
+  'price?',
+  'bread',
   'label',
   'category',
 ];
@@ -10,9 +10,9 @@ export const cowSearchableFields = [
 export const cowFilterableFields = [
   'searchTerm',
   'name',
-  ' location',
-  ' price?',
-  'breadt',
+  'location',
+  'price?',
+  'bread',
   'label',
   'category',
 ];

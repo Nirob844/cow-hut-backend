@@ -1,0 +1,99 @@
+{
+  errors: {
+    permanentAddress: ValidatorError: Path `permanentAddress` is required.
+        at validate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `permanentAddress` is required.',
+        type: 'required',
+        path: 'permanentAddress',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'permanentAddress',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    presentAddress: ValidatorError: Path `presentAddress` is required.
+        at validate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `presentAddress` is required.',
+        type: 'required',
+        path: 'presentAddress',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'presentAddress',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    emergencyContactNo: ValidatorError: Path `emergencyContactNo` is required.
+        at validate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `emergencyContactNo` is required.',
+        type: 'required',
+        path: 'emergencyContactNo',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'emergencyContactNo',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    contactNo: ValidatorError: Path `contactNo` is required.
+        at validate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `contactNo` is required.',
+        type: 'required',
+        path: 'contactNo',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'contactNo',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    id: ValidatorError: Path `id` is required.
+        at validate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\project\level-2\Digital-Cow-Hut-Backend\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `id` is required.',
+        type: 'required',
+        path: 'id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  service: 'user-service',
+  label: 'DCH',
+  timestamp: '2023-06-16T04:46:30.281Z'
+}

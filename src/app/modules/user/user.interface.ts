@@ -1,4 +1,5 @@
 import { Model } from 'mongoose';
+
 export type UserName = {
   firstName: string;
   lastName: string;
@@ -15,3 +16,12 @@ export type IUser = {
   income: number;
 };
 export type UserModel = Model<IUser, Record<string, unknown>>;
+
+export type IUserFilters = {
+  searchTerm?: string;
+  address?: string;
+  email?: string;
+  phoneNumber?: string;
+  budget?: string;
+  income?: string;
+};

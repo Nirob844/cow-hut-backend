@@ -27,3 +27,13 @@ export type ICow = {
   seller?: string; // Reference ID of the seller
 };
 export type CowModel = Model<ICow, Record<string, unknown>>;
+
+export type ICowFilters = {
+  searchTerm?: string;
+  name?: string;
+  location?: string;
+  price?: string;
+  bread?: string;
+  label?: string;
+  category?: string;
+};

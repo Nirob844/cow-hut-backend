@@ -26,8 +26,14 @@ const createCow: RequestHandler = catchAsync(
 const getAllCows = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, cowFilterableFields);
   const paginationOptions = pick(req.query, paginationFields);
+  const { minPrice, maxPrice } = req.query;
 
-  const result = await CowService.getAllCows(filters, paginationOptions);
+  const result = await CowService.getAllCows(
+    filters,
+    paginationOptions,
+    Number(maxPrice),
+    Number(minPrice)
+  );
 
   sendResponse<ICow[]>(res, {
     statusCode: httpStatus.OK,

@@ -1,105 +1,105 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\.84ed0e664b132a08f21e749e922299d78d28333d-audit.json",
+  "files": [
+    {
+      "date": 1686875968473,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-06-error.log",
+      "hash": "42241ce19697611e3a3c0682b4f85c1741aaada38ad4ceeabc987c32e63f0965"
     },
-    "auditLog": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\.84ed0e664b132a08f21e749e922299d78d28333d-audit.json",
-    "files": [
-        {
-            "date": 1686875968473,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-06-error.log",
-            "hash": "42241ce19697611e3a3c0682b4f85c1741aaada38ad4ceeabc987c32e63f0965"
-        },
-        {
-            "date": 1686877274109,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-07-error.log",
-            "hash": "823c384b04bb306e580023cbf99b528c2d99d93374f149552b330beaa738df5e"
-        },
-        {
-            "date": 1686889601712,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-10-error.log",
-            "hash": "37917151407aae0f84fc94cef5f6b2b09ca0a13bd9b1b21f255c05ead456e4f9"
-        },
-        {
-            "date": 1686893238483,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-11-error.log",
-            "hash": "720beafedf160afdb1ca1e09478e7b439fe8bcf672768b812407cb0e8aef33f5"
-        },
-        {
-            "date": 1686895533096,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-12-error.log",
-            "hash": "810875e8f98cd08f2fce2eb8a974ea820232a058dde6c7865e3feae394804cb5"
-        },
-        {
-            "date": 1686903827438,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-14-error.log",
-            "hash": "ecfd311f68f5164c7fa70699b4812e337e45b44eeae03a2dd9d94d832ec13e4a"
-        },
-        {
-            "date": 1686907554121,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-15-error.log",
-            "hash": "246e57b6227e492cfbf65f96fa57817da3216f07e1643a27060ef0afa33bb7bc"
-        },
-        {
-            "date": 1686911986470,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-16-error.log",
-            "hash": "45b776d3f2e8835c163d728e512aed5a264d6dd7c88a791a3e5e7a657effffbe"
-        },
-        {
-            "date": 1686915863718,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-17-error.log",
-            "hash": "c8489419337833aa0e337c2694b4ba688f3d770aafb8bbacefd53a780a0948e1"
-        },
-        {
-            "date": 1686917562523,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-18-error.log",
-            "hash": "17201e8e0778861331c12e7430ae728664944330f500156fe79cc2f83f93b65b"
-        },
-        {
-            "date": 1686922335732,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-19-error.log",
-            "hash": "77f650385c24caa7678300cfa8f08fc0381f5cd3e35702f853cfe5e0effb5b1e"
-        },
-        {
-            "date": 1686930289653,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-21-error.log",
-            "hash": "a843c46031fa82b4d34863307eee8228225a8935829a6a21fd36c2042337a021"
-        },
-        {
-            "date": 1686932844979,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-22-error.log",
-            "hash": "4bfe6570413df9e450e94acc34953e02184e6474638091bad86b1160700975f1"
-        },
-        {
-            "date": 1686935110731,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-23-error.log",
-            "hash": "5727e39a838c45b46832f8e8596e5c4b3c88a3ebab1f29e3456cf38bc5766c43"
-        },
-        {
-            "date": 1686965618394,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-07-error.log",
-            "hash": "880bec60c91306881b501d112a897136637b6eca41ab338f59c8ef69e25ada0d"
-        },
-        {
-            "date": 1686967280448,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-08-error.log",
-            "hash": "51896ef1d69c44b419a44ce6b7514bee3c833704bc1a4e46b954e1f26e77b92c"
-        },
-        {
-            "date": 1686972521786,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-09-error.log",
-            "hash": "df3e8b714b16f4fde9c6a782ad986e376596de8e3c08fe399abdb1ab4926cf70"
-        },
-        {
-            "date": 1686980984231,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-11-error.log",
-            "hash": "ad6f5bbe4fee6595be58d16346a328d16f51f322dd059e09f127eb6e4f2b0edd"
-        },
-        {
-            "date": 1686981679456,
-            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-12-error.log",
-            "hash": "e67b49ca9e88e46916183e30730fe1063ba3c362237f7c851cd4c83cf8771616"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686877274109,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-07-error.log",
+      "hash": "823c384b04bb306e580023cbf99b528c2d99d93374f149552b330beaa738df5e"
+    },
+    {
+      "date": 1686889601712,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-10-error.log",
+      "hash": "37917151407aae0f84fc94cef5f6b2b09ca0a13bd9b1b21f255c05ead456e4f9"
+    },
+    {
+      "date": 1686893238483,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-11-error.log",
+      "hash": "720beafedf160afdb1ca1e09478e7b439fe8bcf672768b812407cb0e8aef33f5"
+    },
+    {
+      "date": 1686895533096,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-12-error.log",
+      "hash": "810875e8f98cd08f2fce2eb8a974ea820232a058dde6c7865e3feae394804cb5"
+    },
+    {
+      "date": 1686903827438,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-14-error.log",
+      "hash": "ecfd311f68f5164c7fa70699b4812e337e45b44eeae03a2dd9d94d832ec13e4a"
+    },
+    {
+      "date": 1686907554121,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-15-error.log",
+      "hash": "246e57b6227e492cfbf65f96fa57817da3216f07e1643a27060ef0afa33bb7bc"
+    },
+    {
+      "date": 1686911986470,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-16-error.log",
+      "hash": "45b776d3f2e8835c163d728e512aed5a264d6dd7c88a791a3e5e7a657effffbe"
+    },
+    {
+      "date": 1686915863718,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-17-error.log",
+      "hash": "c8489419337833aa0e337c2694b4ba688f3d770aafb8bbacefd53a780a0948e1"
+    },
+    {
+      "date": 1686917562523,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-18-error.log",
+      "hash": "17201e8e0778861331c12e7430ae728664944330f500156fe79cc2f83f93b65b"
+    },
+    {
+      "date": 1686922335732,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-19-error.log",
+      "hash": "77f650385c24caa7678300cfa8f08fc0381f5cd3e35702f853cfe5e0effb5b1e"
+    },
+    {
+      "date": 1686930289653,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-21-error.log",
+      "hash": "a843c46031fa82b4d34863307eee8228225a8935829a6a21fd36c2042337a021"
+    },
+    {
+      "date": 1686932844979,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-22-error.log",
+      "hash": "4bfe6570413df9e450e94acc34953e02184e6474638091bad86b1160700975f1"
+    },
+    {
+      "date": 1686935110731,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-23-error.log",
+      "hash": "5727e39a838c45b46832f8e8596e5c4b3c88a3ebab1f29e3456cf38bc5766c43"
+    },
+    {
+      "date": 1686965618394,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-07-error.log",
+      "hash": "880bec60c91306881b501d112a897136637b6eca41ab338f59c8ef69e25ada0d"
+    },
+    {
+      "date": 1686967280448,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-08-error.log",
+      "hash": "51896ef1d69c44b419a44ce6b7514bee3c833704bc1a4e46b954e1f26e77b92c"
+    },
+    {
+      "date": 1686972521786,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-09-error.log",
+      "hash": "df3e8b714b16f4fde9c6a782ad986e376596de8e3c08fe399abdb1ab4926cf70"
+    },
+    {
+      "date": 1686980984231,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-11-error.log",
+      "hash": "ad6f5bbe4fee6595be58d16346a328d16f51f322dd059e09f127eb6e4f2b0edd"
+    },
+    {
+      "date": 1686981679456,
+      "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-12-error.log",
+      "hash": "e67b49ca9e88e46916183e30730fe1063ba3c362237f7c851cd4c83cf8771616"
+    }
+  ],
+  "hashType": "sha256"
 }

@@ -37,7 +37,7 @@ export type ICowFilters = {
   bread?: string;
   label?: string;
   category?: string;
-  minPrice?: string;
-  maxPrice?: string;
+  minPrice?: number;
+  maxPrice?: number;
   seller?: Types.ObjectId;
 };

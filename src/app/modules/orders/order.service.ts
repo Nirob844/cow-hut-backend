@@ -12,11 +12,6 @@ import { Order } from './order.model';
 //   return createdCow;
 // };
 
-const getAllOrders = async (): Promise<IOrder[] | null> => {
-  const result = await Order.find().populate('cow').populate('buyer');
-  return result;
-};
-
 export const createOrder = async (orderData: IOrder): Promise<IOrder> => {
   const { cow: cowId, buyer: buyerId } = orderData;
 
@@ -76,6 +71,11 @@ export const createOrder = async (orderData: IOrder): Promise<IOrder> => {
 
     throw error;
   }
+};
+
+const getAllOrders = async (): Promise<IOrder[] | null> => {
+  const result = await Order.find().populate('cow').populate('buyer');
+  return result;
 };
 
 export const OrderService = {

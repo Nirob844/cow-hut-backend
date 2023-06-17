@@ -18,7 +18,9 @@ const createCow = async (cow: ICow): Promise<ICow | null> => {
 
 const getAllCows = async (
   filters: ICowFilters,
-  paginationOptions: IPaginationOptions
+  paginationOptions: IPaginationOptions,
+  minPrice: number,
+  maxPrice: number
 ): Promise<IGenericResponse<ICow[]>> => {
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =
@@ -43,6 +45,20 @@ const getAllCows = async (
         [field]: value,
       })),
     });
+  }
+
+  if (minPrice || maxPrice) {
+    const priceCondition: { $gte?: number; $lte?: number } = {};
+
+    if (minPrice) {
+      priceCondition.$gte = minPrice;
+    }
+
+    if (maxPrice) {
+      priceCondition.$lte = maxPrice;
+    }
+
+    andConditions.push({ price: priceCondition });
   }
 
   const sortConditions: { [key: string]: SortOrder } = {};

@@ -20,6 +20,18 @@ const createOrder: RequestHandler = catchAsync(
   }
 );
 
+const getAllOrders = catchAsync(async (req: Request, res: Response) => {
+  const result = await OrderService.getAllOrders();
+
+  sendResponse<IOrder[]>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Cow retrieved successfully !',
+    data: result,
+  });
+});
+
 export const OrderController = {
   createOrder,
+  getAllOrders,
 };

@@ -74,6 +74,16 @@
             "date": 1686935110731,
             "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-16-06-23-error.log",
             "hash": "5727e39a838c45b46832f8e8596e5c4b3c88a3ebab1f29e3456cf38bc5766c43"
+        },
+        {
+            "date": 1686965618394,
+            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-07-error.log",
+            "hash": "880bec60c91306881b501d112a897136637b6eca41ab338f59c8ef69e25ada0d"
+        },
+        {
+            "date": 1686967280448,
+            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\errors\\DCH-2023-17-06-08-error.log",
+            "hash": "51896ef1d69c44b419a44ce6b7514bee3c833704bc1a4e46b954e1f26e77b92c"
         }
     ],
     "hashType": "sha256"

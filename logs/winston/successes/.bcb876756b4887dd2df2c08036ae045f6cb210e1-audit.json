@@ -74,6 +74,16 @@
             "date": 1686935110724,
             "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\successes\\DCH-2023-16-06-23-success.log",
             "hash": "d07942a0de5d8f7476ad3ae5ec1ad222b288dbdbd90d9d1516dc5f4a8ebcabda"
+        },
+        {
+            "date": 1686965618384,
+            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\successes\\DCH-2023-17-06-07-success.log",
+            "hash": "695f50183d953d19011e11579c532fa76a4e2574d9541d72a1ed562a5e16149c"
+        },
+        {
+            "date": 1686967280440,
+            "name": "C:\\project\\level-2\\Digital-Cow-Hut-Backend\\logs\\winston\\successes\\DCH-2023-17-06-08-success.log",
+            "hash": "7fb5014baf5e2db9ace8e930a37bc2ff8fb1e6d6586e52eadd7cbe748b793668"
         }
     ],
     "hashType": "sha256"

@@ -1,5 +1,4 @@
-import httpStatus from 'http-status';
-import { SortOrder, Types } from 'mongoose';
+import { SortOrder } from 'mongoose';
 import ApiError from '../../../errors/ApiError';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
@@ -73,7 +72,7 @@ const getAllCows = async (
 };
 
 const getSingleCow = async (id: string): Promise<ICow | null> => {
-  const result = await Cow.findById(id);
+  const result = await Cow.findById(id).populate('seller');
   return result;
 };
 
@@ -81,27 +80,9 @@ const updateCow = async (
   id: string,
   payload: Partial<ICow>
 ): Promise<ICow | null> => {
-  const isExist = await Cow.findOne({ _id: id });
-
-  if (!isExist) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'Cow not found !');
-  }
-
-  const { name, ...cowData } = payload;
-
-  const updatedCowData: Partial<ICow> = { ...cowData };
-
-  // dynamically handling
-  if (name && Object.keys(name).length > 0) {
-    Object.keys(name).forEach(key => {
-      const nameKey = `name.${key}` as keyof Partial<ICow>; // `name.fisrtName`
-      (updatedCowData as any)[nameKey] = name[key as keyof typeof name];
-    });
-  }
-  const objectId = new Types.ObjectId(id); // Convert string to ObjectId
-  const result = await Cow.findOneAndUpdate(objectId, updatedCowData, {
+  const result = await Cow.findOneAndUpdate({ _id: id }, payload, {
     new: true,
-  });
+  }).populate('seller');
   return result;
 };
 

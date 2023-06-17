@@ -5,6 +5,8 @@ export const cowSearchableFields = [
   'bread',
   'label',
   'category',
+  'minPrice',
+  'maxPrice',
 ];
 
 export const cowFilterableFields = [

@@ -7,9 +7,9 @@ import { OrderService } from './order.service';
 
 const createOrder: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    const { ...cow } = req.body;
+    const { ...order } = req.body;
 
-    const result = await OrderService.createOrder(cow);
+    const result = await OrderService.createOrder(order);
 
     sendResponse<IOrder>(res, {
       statusCode: httpStatus.OK,

@@ -23,7 +23,7 @@ export type ICow = {
     | 'Tharparkar'
     | 'Kankrej';
   weight: number;
-  label: 'for sale' | 'sold out';
+  label?: 'for sale' | 'sold out';
   category: 'Dairy' | 'Beef' | 'Dual Purpose';
   seller?: Types.ObjectId | IUser; // Reference ID of the seller
 };

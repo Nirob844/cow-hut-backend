@@ -5,7 +5,7 @@ const orderSchema = new Schema<IOrder, OrderModel>(
   {
     cow: {
       type: Schema.Types.ObjectId,
-      ref: 'Cow', // Assuming you have a 'User' model defined
+      ref: 'Cow', // Assuming you have a 'Cow' model defined
     },
     buyer: {
       type: Schema.Types.ObjectId,

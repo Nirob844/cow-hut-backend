@@ -59,6 +59,7 @@ const cowSchema = new Schema<ICow, CowModel>(
     seller: {
       type: Schema.Types.ObjectId,
       ref: 'User', // Assuming you have a 'User' model defined
+      required: true,
     },
   },
   {

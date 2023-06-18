@@ -55,6 +55,14 @@ export const createOrder = async (orderData: IOrder): Promise<IOrder> => {
     buyer.budget -= totalPrice;
     await buyer.save();
 
+    // Increase the seller's income by the same amount
+    const seller = await User.findById(cow.seller);
+    if (!seller) {
+      throw new Error('Seller not found');
+    }
+    seller.income += totalPrice;
+    await seller.save();
+
     // Create the order record
     const order = new Order(orderData);
     await order.save();
